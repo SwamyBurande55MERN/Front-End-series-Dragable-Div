@@ -1,0 +1,40 @@
+body{
+      background-color: rgb(248, 242, 243);
+}
+
+.draggable {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: rgb(253, 241, 7);
+      border: 1px dashed black;
+      cursor: move;
+    }
+    
+    .header {
+      padding: 10px;
+      background-color:  rgb(253, 241, 7);
+      cursor: move;
+      text-align: center;
+    }
+    
+    .content {
+      padding: 10px;
+      /*overflow: auto;  or */ overflow: hidden; 
+    }
+    
+    .content img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 5px;
+    }
+
+    .resizable {
+      resize: both;
+      overflow: auto;
+    }
+    
+    .rotatable {
+      transform-origin: top left;
+    }
+    
